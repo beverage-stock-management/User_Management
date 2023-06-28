@@ -1,14 +1,15 @@
-package Controller;
+package com.beverageStock.user.Controller;
 
-import Model.User;
-import UserRepository.UserRepo;
+import com.beverageStock.user.Model.User;
+
+import com.beverageStock.user.Repository.UserRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
-public class userController {
+public class UserController {
     @Autowired
     private UserRepo userRepo;
 

@@ -1,4 +1,4 @@
-package Model;
+package com.beverageStock.user.Model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
